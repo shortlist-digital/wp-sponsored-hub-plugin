@@ -11,7 +11,7 @@ class Widgets {
 
 			include_once get_template_directory() . "/custom-fields/WidgetLoader.php";
 
-			$widgets = \WidgetLoader::findByUsage('sponsored-hub');
+			$widgets = \WidgetLoader::findByUsage('sponsored_hub');
 
 			register_field_group(array (
 				'key' => $key . '_widgets_group',
