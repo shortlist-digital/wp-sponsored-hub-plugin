@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../../vendor/autoload.php';
 
 use WpSponsoredHubPlugin\Hooks\BasicDetailsAcf;
 use WpSponsoredHubPlugin\Hooks\SocialMediaAcf;
-use WpSponsoredHubPlugin\Hooks\RelatedContentAcf;
 use WpSponsoredHubPlugin\Hooks\HtmlOverridesAcf;
 use WpSponsoredHubPlugin\CustomRoles\Roles;
 use WpSponsoredHubPlugin\CustomPostTypes\SponsoredHub;
@@ -35,7 +34,6 @@ class WpSponsoredHubPlugin
 	private function add_hooks() {
 		(new BasicDetailsAcf)->init();
 		(new SocialMediaAcf)->init();
-		(new RelatedContentAcf)->init();
 		(new HtmlOverridesAcf)->init();
 	}
 
