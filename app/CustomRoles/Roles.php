@@ -33,6 +33,7 @@ class Roles {
 				$role->add_cap('edit_others_sponsored_hubs');
 				$role->add_cap('edit_published_sponsored_hubs');
 				$role->add_cap('publish_sponsored_hubs');
+				$role->add_cap('delete_sponsored_hub');
 				$role->add_cap('delete_others_sponsored_hubs');
 				$role->add_cap('delete_private_sponsored_hubs');
 				$role->add_cap('delete_published_sponsored_hubs');

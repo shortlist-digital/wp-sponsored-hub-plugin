@@ -36,7 +36,7 @@ class SponsoredHub {
 				'show_in_menu'        => true,
 				'show_in_nav_menus'   => true,
 				'show_in_admin_bar'   => true,
-				'menu_position'       => 4,
+				'menu_position'       => 10,
 				'menu_icon'           => 'dashicons-admin-site',
 				'can_export'          => true,
 				'has_archive'         => false,
@@ -58,6 +58,7 @@ class SponsoredHub {
 				'map_meta_cap' => true,
 				'rewrite' => false,
 				'query_var' => true,
+				'show_in_rest' => true,
 			);
 
 			register_post_type('sponsored_hub', $args);
