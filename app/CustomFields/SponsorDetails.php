@@ -7,7 +7,7 @@ class SponsorDetails {
 
 		add_action('agreable_app_theme_init', function() {
 
-			$key = 'sponsor_details';
+			$key = 'sponsored_hub_sponsor_details';
 
 			register_field_group(array (
 				'key' => $key,
