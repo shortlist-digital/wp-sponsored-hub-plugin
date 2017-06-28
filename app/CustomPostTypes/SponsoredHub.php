@@ -39,7 +39,7 @@ class SponsoredHub {
 				'menu_position'       => 10,
 				'menu_icon'           => 'dashicons-admin-site',
 				'can_export'          => true,
-				'has_archive'         => false,
+				'has_archive'         => true,
 				'exclude_from_search' => false,
 				'publicly_queryable'  => true,
 				'capability_type' => 'sponsored_hub',
