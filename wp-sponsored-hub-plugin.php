@@ -15,10 +15,10 @@ require_once __DIR__ . '/../../../../vendor/autoload.php';
 use WpSponsoredHubPlugin\Hooks\BasicDetailsAcf;
 use WpSponsoredHubPlugin\Hooks\SocialMediaAcf;
 use WpSponsoredHubPlugin\Hooks\HtmlOverridesAcf;
+use WpSponsoredHubPlugin\Hooks\SponsorDetailsAcf;
 use WpSponsoredHubPlugin\CustomRoles\Roles;
 use WpSponsoredHubPlugin\CustomPostTypes\SponsoredHub;
 use WpSponsoredHubPlugin\CustomFields\Header;
-use WpSponsoredHubPlugin\CustomFields\SponsorDetails;
 use WpSponsoredHubPlugin\CustomFields\Widgets;
 
 class WpSponsoredHubPlugin
@@ -35,6 +35,7 @@ class WpSponsoredHubPlugin
 		(new BasicDetailsAcf)->init();
 		(new SocialMediaAcf)->init();
 		(new HtmlOverridesAcf)->init();
+		(new SponsorDetailsAcf)->init();
 	}
 
 	private function add_roles_and_capabilities() {
@@ -47,7 +48,6 @@ class WpSponsoredHubPlugin
 
 	private function add_custom_fields() {
 		(new Header)->init();
-		(new SponsorDetails)->init();
 		(new Widgets)->init();
 	}
 }
