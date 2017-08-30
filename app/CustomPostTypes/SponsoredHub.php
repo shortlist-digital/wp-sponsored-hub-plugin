@@ -36,7 +36,7 @@ class SponsoredHub {
 				'show_in_menu'        => true,
 				'show_in_nav_menus'   => true,
 				'show_in_admin_bar'   => true,
-				'menu_position'       => 9,
+				'menu_position'       => 15,
 				'menu_icon'           => 'dashicons-admin-site',
 				'can_export'          => true,
 				'has_archive'         => true,
