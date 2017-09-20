@@ -56,7 +56,7 @@ class SponsoredHub {
 					'read_post' 			=> 'read_sponsored_hub',
 				),
 				'map_meta_cap' => true,
-				'rewrite' => true,
+				'rewrite' => false,
 				'query_var' => true,
 				'show_in_rest' => true,
 			);
